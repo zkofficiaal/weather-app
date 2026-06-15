@@ -2,7 +2,7 @@
 //  SwiftUI_WeatherAppApp.swift
 //  SwiftUI-WeatherApp
 //
-//  Created by amartiniuc on 26.12.2023.
+//  Created by Z.K   on 23/05/2026.
 //
 
 import SwiftUI
