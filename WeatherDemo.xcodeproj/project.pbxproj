@@ -29,6 +29,17 @@
 		072E2E922FE108D6006E426A /* WeatherDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		072E2EC52FE1F0EF006E426A /* Exceptions for "Preview Content" folder in "WeatherDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ModelData.swift,
+				weatherData.json,
+			);
+			target = 072E2E7A2FE108D5006E426A /* WeatherDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		072E2E7D2FE108D5006E426A /* WeatherDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -43,6 +54,14 @@
 		072E2E952FE108D6006E426A /* WeatherDemoUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = WeatherDemoUITests;
+			sourceTree = "<group>";
+		};
+		072E2EC22FE1F07C006E426A /* Preview Content */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				072E2EC52FE1F0EF006E426A /* Exceptions for "Preview Content" folder in "WeatherDemo" target */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +98,7 @@
 				072E2E8B2FE108D6006E426A /* WeatherDemoTests */,
 				072E2E952FE108D6006E426A /* WeatherDemoUITests */,
 				072E2E7C2FE108D5006E426A /* Products */,
+				072E2EC02FE1EF8E006E426A /* Preview Content */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +110,14 @@
 				072E2E922FE108D6006E426A /* WeatherDemoUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		072E2EC02FE1EF8E006E426A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				072E2EC22FE1F07C006E426A /* Preview Content */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
